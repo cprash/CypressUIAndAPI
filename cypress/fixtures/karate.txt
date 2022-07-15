@@ -1,0 +1,94 @@
+https://automationtestings.com/karate-framework/#:~:text=Karate%20is%20an%20open-source%20API%20%28SOAP%20%26%20REST%29,definitions%20so%20we%20don%E2%80%99t%20have%20to%20write%20it.
+
+Cucumber Basics
+At the end of this module, we will be knowing about
+- >  What is cucumber and its features
+- > Understanding the feature files and step definition files
+->Testing a simple API using cucumber
+
+https://qatechtools.com/2020/05/02/getting-started-with-karate-automation/
+
+Installation
+-> Setting up your preferred IDE
+-> Creating a Maven Project
+-> Adding up all the required Dependencies
+
+https://qatechtools.com/2020/05/02/getting-started-with-karate-automation/
+
+
+Framework Structure
+At the end of this module, we will be knowing about
+- >  Understanding the feature files in karate
+ - > Understanding karate-config.js file in karate 
+
+
+https://qatechtools.com/2020/05/17/how-to-pass-data-from-one-feature-file-to-another-in-karate/
+
+
+Built-in Functions Functions
+At the end of this module, we will be knowing about
+- >  Important Built in functions in Karate(Call Single, Retry Until etc)
+ - > How to use built in functions with eample
+
+https://qatechtools.com/2020/05/17/how-to-pass-data-from-config-file-to-your-feature-file-in-karate/
+
+Assertions
+At the end of this module, we will be knowing about
+- >  Various ways to Assert in Karate
+ - > Usage of assertions
+
+https://qatechtools.com/2020/05/31/how-to-do-schema-validation-in-karate/
+
+
+Running tests in Parallel, DDT in karate & DRY principle
+->how to run tests in parallel
+-> how to call existing method or feature file in karate
+-> Data driven testing in karate
+
+https://qatechtools.com/2020/05/06/parallel-execution-in-karate/
+https://qatechtools.com/2020/05/24/data-driven-testing-in-karate/
+
+
+Common function
+how to write the common functions
+
+
+https://github.com/karatelabs/karate/tree/master/karate-core
+
+Locators & Basic flow
+Various ways to identify locators
+Login into application,. checking out a product, Updating personal info
+
+https://qatechtools.com/2021/07/25/using-locators-in-karate-ui-web-automation/
+
+Authentication & CRUD operation
+How to do API authentication
+How to do various crud operations
+
+https://github.com/karatelabs/karate
+
+Schema Validation
+How to do schema validation
+
+https://qatechtools.com/2020/05/31/how-to-do-schema-validation-in-karate/
+
+
+Report , Integration with CI & Performance Testing using Karate
+
+How to generate various reports
+
+How to run scripts from jenkins
+
+Running a peformance test using the existing feature file
+
+https://qatechtools.com/2020/05/24/cucumber-reporting-in-karate-project/
+
+
+
+
+
+
+
+
+
+

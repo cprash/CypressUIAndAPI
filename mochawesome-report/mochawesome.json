@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-07-14T09:34:13.684Z",
+    "end": "2022-07-14T09:34:17.237Z",
+    "duration": 3553,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8a9adf4d-7304-410e-bfa1-6d9afc853e50",
+      "title": "",
+      "fullFile": "cypress\\e2e\\SamplePracticeTests\\hubspotlogin.cy.js",
+      "file": "cypress\\e2e\\SamplePracticeTests\\hubspotlogin.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9188d28e-5cf6-4020-8aec-8ead67905a51",
+          "title": "Hub Spot Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Hub spot login test",
+              "fullTitle": "Hub Spot Login Hub spot login test",
+              "timedOut": null,
+              "duration": 1941,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://app.hubspot.com/login', {\n  failOnStatusCode: false\n});\ncy.get('#username').type('rahulsharma21291@gmail.com');\ncy.get('#password').type('Apple@789!!!');\ncy.get('#loginBtn').click();",
+              "err": {},
+              "uuid": "673808f5-5048-4547-b35d-b1f58a4a2e3b",
+              "parentUUID": "9188d28e-5cf6-4020-8aec-8ead67905a51",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "673808f5-5048-4547-b35d-b1f58a4a2e3b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1941,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
